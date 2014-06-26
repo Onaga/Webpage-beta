@@ -15,6 +15,15 @@ body {
 	height: auto;
 	margin: 2% 0; 
 }
+.mainheader nav ul li img {
+	clear: both;
+	float: left;
+	width: 60%;
+}
+.mainheader nav ul li img:hover {
+	width: 65%;
+	cursor: pointer;
+}
 .mainheader nav {
 	background-color: #068587;
 	height: 40px;
@@ -136,6 +145,10 @@ a:hover, a:active {
 	}
 	.mainheader img{
 	width: 100%;
+	}
+	.mainheader nav ul li img {
+		width: 10%;
+		float: left;
 	}
 	.mainheader nav {
 	height: 200px;
