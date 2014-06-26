@@ -107,7 +107,7 @@ body {
 }
 .bottomSideBar {
 	width: 21%;
-	float: left;
+	float: right;
 	background-color: white;
 	margin-left: 3%;
 	border-radius: 5px;
