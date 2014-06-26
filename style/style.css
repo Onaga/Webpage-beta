@@ -94,6 +94,7 @@ body {
 .topSideBar img {
 	width: 96px;
 	height: 100px;
+	border-radius: 5px;
 }
 .middleSideBar {
 	width: 21%;
@@ -150,8 +151,11 @@ a:hover, a:active {
 		width: 10%;
 		float: left;
 	}
+	.mainheader nav ul li img:hover {
+		width: 11%;
+	}
 	.mainheader nav {
-	height: 200px;
+	height: 260px;
 	}
 	.mainheader nav ul {
 		padding-left: 0;
