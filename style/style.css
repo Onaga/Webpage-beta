@@ -1,5 +1,5 @@
 body {
-	background-image: url('../images/wall.jpg');
+	background-color: #c8e5eb;
 	font-size: 88%;
 	font-family: Arial, 'Lucida Sans Unicode';
 	line-height: 1.5;
@@ -11,9 +11,9 @@ body {
 	clear: both;
 }
 .mainheader img{
-	width: 30%;
+	width: 20%;
 	height: auto;
-	margin: 2% 0; 
+	margin: 1% auto; 
 }
 .mainheader nav ul li img {
 	clear: both;
