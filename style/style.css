@@ -61,6 +61,7 @@ body {
 	line-height: 25px;
 	border-radius: 5px;
 }
+
 .content {
 	width: 70%;
 	float: left;
@@ -69,18 +70,20 @@ body {
 	width: 100%;
 	float: left;
 }
-.topContent {
-	background-color: white;
-	border-radius: 5px;
-	padding: 3% 5%;
-	margin-top: 2px;
+.infoTeam {
+	float: left;
+	width: 300px;
+	margin-left: 5px;
 }
-.bottomContent {
-	background-color: white;
-	border-radius: 5px;
-	padding: 3% 5%;
-	margin-top: 2px;
+
+.pic > img {
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-radius: 10px
 }
+
 .topSideBar {
 	width: 21%;
 	float: left;
