@@ -2,26 +2,31 @@ body {
     background-color: black;
 }
 
+@font-face {
+    font-family: "zontak";
+    src: url(fonts/LoversQuarrel-Regular.ttf) format('truetype');
+}
+
 .wrapper {
     height: 1700px;
     width: 80%;
-    font-size: 88%;
-    font-family: Arial, 'Lucida Sans Unicode';
     margin: 0 auto;
 }
 
-nav ul li img {
-    clear: both;
-    float: left;
-    width: 10%;
-    height: 50px;
-}
+
 nav {
-    background-color: #161107;
+    background-color: #232323;
     height: 50px;
     border-radius: 5px;
     margin-bottom: 0px;
 }
+
+    nav ul li img {
+        float: left;
+        width: 10%;
+        height: 40px;
+    }
+
 
     nav ul {
         float: right;
@@ -32,6 +37,7 @@ nav {
 
         nav ul li {
             display: inline;
+            font-family: 
         }
 
     nav a:link, nav a:visited {
@@ -44,7 +50,7 @@ nav {
     nav a:hover, nav a:active,
     nav .active a:link, nav .active a:visited {
         background-color: #ECE04E;
-        color: white;
+        color: black;
         border-radius: 5px;
     }
 
@@ -175,7 +181,7 @@ section {
     .firstArticle {
         width: 22.4%;
         height: 170px;
-        background-color: white;
+        background-color: #232323;
         display: inline-block;
         margin: 1% 0 0 1%;
         cursor: pointer;
@@ -184,7 +190,7 @@ section {
     .secondArticle {
         width: 22.4%;
         height: 170px;
-        background-color: white;
+        background-color: #232323;
         display: inline-block;
         margin: 1% 0 0 1.5%;
         cursor: pointer;
@@ -193,7 +199,7 @@ section {
     .thirdArticle {
         width: 22.4%;
         height: 170px;
-        background-color: white;
+        background-color: #232323;
         display: inline-block;
         margin: 1% 0 0 1.5%;
         cursor: pointer;
@@ -202,7 +208,7 @@ section {
     .fourthArticle {
         width: 22.4%;
         height: 170px;
-        background-color: white;
+        background-color: #232323;
         display: inline-block;
         margin: 1% 2% 0 2%;
         cursor: pointer;
@@ -213,7 +219,7 @@ footer {
     height: 300px;
     float: left;
     border-radius: 5px;
-    background-color: black;
+    background-color: #232323;
     margin-top: 2%;
     margin-bottom: 2%;
 }
