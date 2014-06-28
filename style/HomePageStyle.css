@@ -138,6 +138,7 @@ section {
         border: 1px solid red;
         display: inline-block;
         margin: 1% 0 0 0;
+        cursor: pointer;
     }
 
          #firstArticle:hover + #content {
@@ -145,8 +146,8 @@ section {
           }
 
          #main:hover + #trykk {
-    background-color: green;
-}
+            background-color: green;
+         }
 
     .secondArticle {
         width: 22.7%;
@@ -154,6 +155,7 @@ section {
         border: 1px solid red;
         display: inline-block;
         margin: 1% 0 0 2%;
+        cursor: pointer;
     }
 
     .thirdArticle {
@@ -162,6 +164,7 @@ section {
         border: 1px solid red;
         display: inline-block;
         margin: 1% 0 0 2%;
+        cursor: pointer;
     }
 
     .fourthArticle {
@@ -170,6 +173,7 @@ section {
         border: 1px solid red;
         display: inline-block;
         margin: 1% 0 0 2%;
+        cursor: pointer;
     }
 
 footer {
