@@ -147,7 +147,11 @@ section {
 
          #main:hover + #trykk {
             background-color: green;
+<<<<<<< HEAD
          }
+=======
+    }
+>>>>>>> origin/master
 
     .secondArticle {
         width: 22.7%;
