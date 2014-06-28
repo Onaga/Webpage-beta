@@ -1,8 +1,14 @@
 $(document).ready(function(){
   $(".firstArticle").mouseover(function(){
-    $("#content").css("background-color","red");
+    $("#content").css('background-color', 'red');
   });
-  $(".firstArticle").mouseout(function(){
-    $("#content").css("background-color","white");
+   $(".secondArticle").mouseover(function(){
+    $("#content").css('background-color', 'green');
+  });
+    $(".thirdArticle").mouseover(function(){
+    $("#content").css('background-color', 'yellow');
+  });
+     $(".fourthArticle").mouseover(function(){
+    $("#content").css('background-color', 'blue');
   });
 });
