@@ -47,7 +47,7 @@ nav {
     nav a:hover, nav a:active,
     nav .active a:link, nav .active a:visited {
         background-color: #ECE04E;
-        color: white;
+        color: black;
         border-radius: 5px;
     }
 
