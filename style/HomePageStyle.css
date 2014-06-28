@@ -1,5 +1,5 @@
 body {
-    background-color: #141C27;
+    background-color: black;
 }
 
 .wrapper {
@@ -20,6 +20,7 @@ nav {
     background-color: #161107;
     height: 50px;
     border-radius: 5px;
+    margin-bottom: 0px;
 }
 
     nav ul {
@@ -42,7 +43,7 @@ nav {
 
     nav a:hover, nav a:active,
     nav .active a:link, nav .active a:visited {
-        background-color: #9e4242;
+        background-color: #ECE04E;
         color: white;
         border-radius: 5px;
     }
@@ -54,11 +55,13 @@ nav {
 .proba{
     width: 100%;
     height: 200px;
+    margin-top:0px;
 }
 
     .proba img{
         width: 100%;
         height: 200px;
+        border-radius: 0 0 10px 10px;
     }
 
 main {
@@ -80,8 +83,9 @@ main {
 aside {
     float: left;
     width: 25%;
-    height: 800px;
+    height: 630px;
     margin-left: 4%;
+
 }
 
 .bottomContent {
@@ -92,11 +96,23 @@ aside {
 }
 
 .topSideBar {
+    color: white;
     width: 90%;
-    background-color: #161107;
+    background-color: #D21C13;
     margin-left: 3%;
     padding: 2% 3%;
     border-top: 0px solid #161107;
+
+    
+background: rgba(210,28,19,1);
+background: -moz-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,28,19,1)), color-stop(20%, rgba(210,28,19,1)), color-stop(86%, rgba(213,55,27,1)), color-stop(98%, rgba(214,60,29,1)), color-stop(100%, rgba(214,60,29,1)));
+background: -webkit-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+background: -o-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+background: -ms-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+background: linear-gradient(to bottom, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d21c13', endColorstr='#d63c1d', GradientType=0 );
+
 }
 
     .topSideBar img {
@@ -107,17 +123,42 @@ aside {
 
 .middleSideBar {
     width: 90%;
-    background-color: #161107;
+    background-color: #D21C13;
     margin: 0 0 0 3%;
     padding: 2% 3%;
+
+    
+background: rgba(214,61,29,1);
+background: -moz-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(214,61,29,1)), color-stop(7%, rgba(214,61,29,1)), color-stop(68%, rgba(214,64,30,1)), color-stop(100%, rgba(228,164,60,1)));
+background: -webkit-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+background: -o-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+background: -ms-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+background: linear-gradient(to bottom, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d63d1d', endColorstr='#e4a43c', GradientType=0 );
+
+
+
 }
 
 .bottomSideBar {
     width: 90%;
-    background-color: #161107;
+    background-color: #D21C13;
     margin: 0 0 0 3%;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 10px 10px;
     padding: 2% 3%;
+
+    
+background: rgba(228,164,60,1);
+background: -moz-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,164,60,1)), color-stop(10%, rgba(228,164,60,1)), color-stop(92%, rgba(236,224,78,1)), color-stop(100%, rgba(236,224,78,1)));
+background: -webkit-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+background: -o-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+background: -ms-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+background: linear-gradient(to bottom, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4a43c', endColorstr='#ece04e', GradientType=0 );
+
+
 }
 
 
@@ -134,7 +175,7 @@ section {
     .firstArticle {
         width: 22.4%;
         height: 170px;
-        border: 1px solid red;
+        background-color: white;
         display: inline-block;
         margin: 1% 0 0 1%;
         cursor: pointer;
@@ -143,7 +184,7 @@ section {
     .secondArticle {
         width: 22.4%;
         height: 170px;
-        border: 1px solid red;
+        background-color: white;
         display: inline-block;
         margin: 1% 0 0 1.5%;
         cursor: pointer;
@@ -152,7 +193,7 @@ section {
     .thirdArticle {
         width: 22.4%;
         height: 170px;
-        border: 1px solid red;
+        background-color: white;
         display: inline-block;
         margin: 1% 0 0 1.5%;
         cursor: pointer;
@@ -161,7 +202,7 @@ section {
     .fourthArticle {
         width: 22.4%;
         height: 170px;
-        border: 1px solid red;
+        background-color: white;
         display: inline-block;
         margin: 1% 2% 0 2%;
         cursor: pointer;
@@ -192,7 +233,7 @@ footer {
     footer ul{
         width: 20%;
         margin: 7% 0 0 4%;
-        font-size: 30px;
+        font-size: 20px;
     }
 
 a {
