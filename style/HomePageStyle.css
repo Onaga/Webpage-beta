@@ -145,8 +145,8 @@ section {
           }
 
          #main:hover + #trykk {
-            background-color: green;
-    }
+    background-color: green;
+}
 
     .secondArticle {
         width: 22.7%;
