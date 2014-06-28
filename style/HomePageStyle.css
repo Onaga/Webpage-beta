@@ -132,7 +132,7 @@ section {
     color: green;
 }
 
-    #firstArticle {
+    .firstArticle {
         width: 22.7%;
         height: 300px;
         border: 1px solid red;
@@ -140,18 +140,6 @@ section {
         margin: 1% 0 0 0;
         cursor: pointer;
     }
-
-         #firstArticle:hover + #content {
-            background-color: green;
-          }
-
-         #main:hover + #trykk {
-            background-color: green;
-<<<<<<< HEAD
-         }
-=======
-    }
->>>>>>> origin/master
 
     .secondArticle {
         width: 22.7%;
