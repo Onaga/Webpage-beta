@@ -123,22 +123,22 @@ section {
     display: inline-block;
     width: 67%;
     border-radius: 5px;
-    height: 320px;
+    height: 190px;
     color: green;
 }
 
     .firstArticle {
-        width: 22.7%;
-        height: 300px;
+        width: 22.4%;
+        height: 170px;
         border: 1px solid red;
         display: inline-block;
-        margin: 1% 0 0 0;
+        margin: 1% 0 0 1%;
         cursor: pointer;
     }
 
     .secondArticle {
-        width: 22.7%;
-        height: 300px;
+        width: 22.4%;
+        height: 170px;
         border: 1px solid red;
         display: inline-block;
         margin: 1% 0 0 2%;
@@ -146,8 +146,8 @@ section {
     }
 
     .thirdArticle {
-        width: 22.7%;
-        height: 300px;
+        width: 22.4%;
+        height: 170px;
         border: 1px solid red;
         display: inline-block;
         margin: 1% 0 0 2%;
@@ -155,11 +155,11 @@ section {
     }
 
     .fourthArticle {
-        width: 22.7%;
-        height: 300px;
+        width: 22.4%;
+        height: 170px;
         border: 1px solid red;
         display: inline-block;
-        margin: 1% 0 0 2%;
+        margin: 1% 1% 0 2%;
         cursor: pointer;
     }
 
