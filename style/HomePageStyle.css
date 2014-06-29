@@ -12,11 +12,6 @@ nav ul li img {
     margin: 0 auto;
 }
 
-nav ul li img {
-    float: left;
-    width: 10%;
-    height: 50px;
-}
 nav {
     background-color: #161107;
     height: 50px;
@@ -52,13 +47,13 @@ nav {
         border-radius: 5px;
     }
 
-.proba{
+.proba {
     width: 100%;
     height: 200px;
-    margin-top:0px;
+    margin-top: 0px;
 }
 
-    .proba img{
+    .proba img {
         width: 100%;
         height: 200px;
         border-radius: 0 0 10px 10px;
@@ -85,7 +80,6 @@ aside {
     width: 25%;
     height: 630px;
     margin-left: 4%;
-
 }
 
 .bottomContent {
@@ -103,7 +97,6 @@ aside {
     margin-top: -1%;
     padding: 2% 3%;
     border-top: 0px solid #161107;
-    
     background: rgba(210,28,19,1);
     background: -moz-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,28,19,1)), color-stop(20%, rgba(210,28,19,1)), color-stop(86%, rgba(213,55,27,1)), color-stop(98%, rgba(214,60,29,1)), color-stop(100%, rgba(214,60,29,1)));
@@ -125,7 +118,6 @@ aside {
     background-color: #D21C13;
     margin: 0 0 0 3%;
     padding: 2% 3%;
-
     background: rgba(214,61,29,1);
     background: -moz-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(214,61,29,1)), color-stop(7%, rgba(214,61,29,1)), color-stop(68%, rgba(214,64,30,1)), color-stop(100%, rgba(228,164,60,1)));
@@ -142,7 +134,6 @@ aside {
     margin: 0 0 0 3%;
     border-radius: 0 0 10px 10px;
     padding: 2% 3%;
-    
     background: rgba(228,164,60,1);
     background: -moz-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,164,60,1)), color-stop(10%, rgba(228,164,60,1)), color-stop(92%, rgba(236,224,78,1)), color-stop(100%, rgba(236,224,78,1)));
@@ -164,43 +155,43 @@ section {
     color: green;
 }
 
-    .firstArticle {
-        width: 22.4%;
-        height: 170px;
-        background-color: white;
-        display: inline-block;
-        margin: 1% 0 0 1%;
-        cursor: pointer;
-    }
+.firstArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 0 0 1%;
+    cursor: pointer;
+}
 
-    .secondArticle {
-        width: 22.4%;
-        height: 170px;
-        background-color: white;
-        display: inline-block;
-        margin: 1% 0 0 1.5%;
-        cursor: pointer;
-    }
+.secondArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 0 0 1.5%;
+    cursor: pointer;
+}
 
-    .thirdArticle {
-        width: 22.4%;
-        height: 170px;
-        background-color: white;
-        display: inline-block;
-        margin: 1% 0 0 1.5%;
-        cursor: pointer;
-    }
+.thirdArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 0 0 1.5%;
+    cursor: pointer;
+}
 
-    .fourthArticle {
-        width: 22.4%;
-        height: 170px;
-        background-color: white;
-        display: inline-block;
-        margin: 1% 2% 0 2%;
-        cursor: pointer;
-    }
+.fourthArticle {
+    width: 22.4%;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    margin: 1% 2% 0 2%;
+    cursor: pointer;
+}
 
-footer {
+footer{
     width: 100%;
     height: 300px;
     border-radius: 10px 10px 0 0;
@@ -209,40 +200,41 @@ footer {
     margin-bottom: 2%;
     display: inline-block;
 }
-    
-    footer .FooterProvide{
+
+    footer .FooterProvide {
         width: 22%;
         margin: 0 0 0 5%;
         float: left;
     }
-    
-    footer h2{
+
+    footer h2 {
         color: #AFAFAF;
     }
-    
-    footer ul{
+
+    footer ul {
         width: 70%;
         font-size: 20px;
     }
-    footer ul li{
+
+        footer ul li {
+            color: #AFAFAF;
+            list-style-image: url("../images/tikche.png");
+            font-size: 16px;
+        }
+
+    footer .menu ul li a {
         color: #AFAFAF;
-        list-style-image:url("../images/tikche.png");
+        list-style-image: url("../images/tikche.png");
         font-size: 16px;
     }
 
-    footer .menu ul li a{
-        color: #AFAFAF;
-        list-style-image:url("../images/tikche.png");
-        font-size: 16px;
-    }
-
-.menu{
+.menu {
     width: 22%;
     height: 265px;
     float: left;
 }
 
-.SocialDiv{
+.SocialDiv {
     width: 45%;
     margin: 0 5% 0 0;
     height: 265px;
@@ -250,10 +242,13 @@ footer {
     text-align: center;
 }
 
-.SocialDiv img{
-    width: 15%;
-}
+    .SocialDiv img {
+        width: 15%;
+    }
 
 a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1280px) {
 }
