@@ -1,14 +1,37 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 * { padding: 0; margin: 0; }
+header{
+    text-align: left;
+}
+.body {
+	margin:0 auto;
+	width: 70%;
+	clear: both;
+}
+.mainheader img{
+	width: 20%;
+	height: auto;
+	margin: 1% auto; 
+}
+footer{
+	width: 70%;
+	float: left;
+	border-radius: 5px;
+	background-color: #068587;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
 
 body, html
 {
+    text-align: left;
+    /*dolnite dve kakvo pravyat?*/
 	width: 100%;
 	height: 100%;
 	font-family: "Droid Sans", arial, verdana, sans-serif;
 	font-weight: 700;
-	color: #ff6;
+	color: #f00;
 	background-color: #000;
 	overflow: hidden;
 }
@@ -25,7 +48,7 @@ p#start
 	z-index: 1;
 	-webkit-animation: intro 2s ease-out;
 	-moz-animation: intro 2s ease-out;
-	-ms-animation: intro 2s ease-out;
+	/*-ms-animation: intro 2s ease-out;*/
 	-o-animation: intro 2s ease-out;
 	animation: intro 2s ease-out;
 }
