@@ -31,7 +31,7 @@ body, html
 	height: 100%;
 	font-family: "Droid Sans", arial, verdana, sans-serif;
 	font-weight: 700;
-	color: #f00;
+	color: #ff6;
 	background-color: #000;
 	overflow: hidden;
 }
@@ -98,11 +98,11 @@ h1
 	text-shadow: -2px -2px 0 #ff6, 2px -2px 0 #ff6, -2px 2px 0 #ff6, 2px 2px 0 #ff6;
 	opacity: 0;
 	z-index: 1;
-	-webkit-animation: logo 5s ease-out 2.5s;
-	-moz-animation: logo 5s ease-out 2.5s;
-	-ms-animation: logo 5s ease-out 2.5s;
-	-o-animation: logo 5s ease-out 2.5s;
-	animation: logo 5s ease-out 2.5s;
+	-webkit-animation: logo 2s ease-out 4s;
+	-moz-animation: logo 2s ease-out 4s;
+	-ms-animation: logo 2s ease-out 4s;
+	-o-animation: logo 2s ease-out 4s;
+	animation: logo 2s ease-out 4s;
 }
 
 h1 sub
