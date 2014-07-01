@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: black;
 }
 
@@ -72,8 +72,8 @@ main {
     padding: 2% 2%;
     margin: 1% 2% 0 0;
     width: 95%;
-    height: 490px;
-    background-color: white;
+    height: 400px;
+    border: 1px solid red;
 }
 
 aside {
@@ -147,47 +147,17 @@ aside h2{
 section {
     margin-top: 1%;
     float: right;
-    display: inline-block;
+    display: block;
     width: 67%;
     border-radius: 5px;
-    height: 190px;
+    height: 400px;
     color: green;
+    border: 1px solid red;
 }
 
-.firstArticle {
-    width: 22.4%;
-    height: 170px;
-    background-color: white;
-    display: inline-block;
-    margin: 1% 0 0 1%;
-    cursor: pointer;
-}
-
-.secondArticle {
-    width: 22.4%;
-    height: 170px;
-    background-color: white;
-    display: inline-block;
-    margin: 1% 0 0 1.5%;
-    cursor: pointer;
-}
-
-.thirdArticle {
-    width: 22.4%;
-    height: 170px;
-    background-color: white;
-    display: inline-block;
-    margin: 1% 2% 0 1.5%;
-    cursor: pointer;
-}
-
-.fourthArticle {
-    width: 22.4%;
-    height: 170px;
-    background-color: white;
-    display: inline-block;
-    margin: 1% 2% 0 0;
-    cursor: pointer;
+iframe{
+    width: 100%;
+    height: 400px;
 }
 
 footer {
@@ -270,10 +240,6 @@ a {
         text-align: center;
     }
 
-    .firstArticle, .secondArticle, .thirdArticle, .fourthArticle {
-        margin: 1% 0 0 0.3%;
-    }
-
 }
 
 @media only screen and (max-width: 817px) {
@@ -292,11 +258,6 @@ a {
         width: 100%;
         height: 380px;
         text-align: center;
-    }
-
-    .firstArticle , .secondArticle , .thirdArticle , .fourthArticle {
-        width: 45%;
-        border-radius: 15px;
     }
 
     aside{
@@ -333,10 +294,6 @@ a {
 
     aside{
         height: 550px;
-    }
-
-    aside .topSideBar img{
-        width: 44%;
     }
 
     footer .SocialDiv img{
