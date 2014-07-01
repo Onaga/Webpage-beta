@@ -1,0 +1,219 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+html {
+    font-size: 16px;
+    font-family: "Droid Sans", arial, verdana, sans-serif 400;
+}
+
+body, html {
+    font-family: "Droid Sans", arial, verdana, sans-serif 400;
+    color: #ff6;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+header {
+    background-color: darkred;
+    text-align:left;
+}
+
+p#start-second-row {
+    text-align: left;
+    margin: -6% auto;
+}
+
+div#opening-text-div {
+    display: block;
+    width: 31.25rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #4ee;
+    opacity: 0;
+    z-index: 1;
+    -webkit-animation: opening-text;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 6s;
+    animation: opening-text ease-in-out;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes opening-text {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes opening-text {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+h1#team-wars {
+    display:block;/*position: relative;*/
+    width: 25rem;
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 8rem;
+    color: black;
+    opacity: 0;
+    text-shadow: -4px -4px 0px #ff6,4px -4px 0px #ff6, -4px 4px 0px #ff6, 4px 4px 0px #ff6;
+    -webkit-animation: team-wars;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-delay: 6s;
+    animation: team-wars;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-delay: 6s;
+}
+
+@-webkit-keyframes team-wars {
+    1% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes team-wars {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+#titles-angle {
+    position: relative;
+    width: 28rem;
+    height: 50rem;
+    bottom:50rem;
+    left:50%;
+    margin-left:-9rem;
+    font-size: 1.5rem;
+    overflow:hidden auto;
+    transform-origin: 50% 100%;
+    -webkit-transform: perspective(300px) rotateX(25deg);
+    -moz-transform: perspective(300px) rotateX(25deg);
+    -ms-transform: perspective(300px) rotateX(25deg);
+    -o-transform: perspective(300px) rotateX(25deg);
+    transform: perspective(300px) rotateX(25deg);
+}
+/*NEEDS SOME WORK HERE*/
+/*#titles-angle::after {
+    position: absolute;
+    content: ' ';
+    background-image: linear-gradient(top, rgba(0,0,0,1), 0%, transparent:100%);
+}*/
+
+/*#wrapper{
+    position:absolute;
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+    vertical-align:top;*/
+}
+div#titles-text {
+    position: absolute;
+    -webkit-animation: crawl;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-delay: 0s;
+    animation: crawl;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    opacity: 1; /*tuka ako se sloji na 0 i fade-out-va cyaloto*/
+    text-align: center;
+    font-size: 100%;
+}
+
+div#titles-text p {
+    text-align: center;
+    margin: 1rem auto;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+div#titles-text .center {
+    text-align: center;
+    font-weight: 700;
+    font-size: 300%;
+}
+div#titles-text img#dollar{
+    width:20rem;
+}
+div#titles-text img#euro{
+    width: 22rem;
+    height: 12rem;
+}
+div#titles-text a {
+    color: #ff6;
+    text-decoration: underline;
+}
+
+@-webkit-keyframes crawl {
+
+    0% {
+        top: 100%;
+        
+    }
+
+    100% {
+        top: -170%;
+    }
+}
+
+@keyframes crawl {
+
+    0% {
+        top: 100%;
+        
+    }
+
+    100% {
+        top: -170%;
+    }
+}
