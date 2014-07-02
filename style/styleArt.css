@@ -26,10 +26,6 @@ nav {
         color: white;
         font-size: 30px;
         font-style: italic;
-      
-
-        
-
     }
     nav ul {
         float: right;
@@ -94,8 +90,7 @@ nav {
 }
 #content img{
     width: 460px;
-    height: 200px;
-    
+    height: 200px;  
     border-radius: 10px;
     margin-left: 1.8%;
     margin-top: 2%;

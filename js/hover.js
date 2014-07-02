@@ -5,15 +5,16 @@ $(".firstArticle").mouseover(function(){
 });
 
 $(".secondArticle").mouseover(function(){
-  $("#con").attr('src', 'images/HomePageImages/softuni-conf-may-2014 (6).JPG');
+  $("#con").attr('src', 'images/FunPageImages/enhanced-buzz-20746-1374746508-22.png');
 });
 
 $(".thirdArticle").mouseover(function(){
-  $("#con").attr('src', 'images/HomePageImages/');
+  $("#con").attr('src', 'images/FunPageImages/06_17_2013_book-smell.jpg');
 });
 
-$(".thirdArticle").mouseover(function () {
-  $("#con").attr('src', 'images/HomePageImages/');
+$(".fourthArticle").mouseover(function () {
+  $("#con").attr('src', 'images/FunPageImages/enhanced-buzz-17903-1374739080-12.png');
+  
 });
    
 });
