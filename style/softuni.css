@@ -15,7 +15,7 @@ nav ul li img {
 }
 
 nav {
-    background-color: #000000;
+    background-color: #EFECCA;
     height: 30px;
     margin: 0 0 0 0;
     border-radius: 10px 10px 0 0;   
@@ -36,7 +36,7 @@ nav {
         list-style: none;
         margin: 0px;
         line-height: 25px;
-        background-color: #000000;
+        background-color: #EFECCA;
         border-radius: 5px;
 
     }
@@ -46,7 +46,7 @@ nav {
         }
 
     nav a:link, nav a:visited {
-        color: white;
+        color: black;
         display: inline-block;
         padding: 0 10px 0 10px;
         height: 25px;
@@ -54,7 +54,7 @@ nav {
 
     nav a:hover, nav a:active,
     nav .active a:link, nav .active a:visited {
-        background-color: #C0D4B6;
+        background-color: white;
         color: black;
         border-radius: 5px;
     }
@@ -120,19 +120,19 @@ nav {
     float: left;
     cursor: pointer;
     visibility: visible;
-    background-color: white;
+    background-color: #EFECCA;
     border:0px;
     border-radius: 5px;
     width: 80px;
     height: 30px;
     color: black;
     font-size: 20px;
-    border:2px solid black;
+    
 }
 #hideMe{
     visibility: hidden;
     float: right;
-    background-color: white;
+    background-color: #EFECCA;
     cursor: pointer;
     border:0px;
     border-radius: 5px;
@@ -140,7 +140,7 @@ nav {
     height: 30px;
     color: black;
     font-size: 20px;
-    border:2px solid black;
+    
 }
 
 .topSideBar {
@@ -245,7 +245,7 @@ footer {
     height: 300px;
     border-radius: 20px 20px 0 0;
     
-    background-color: #000000;
+    background-color: #EFECCA;
     margin-top: 2%;
     margin-bottom: 0%;
     display: inline-block;
