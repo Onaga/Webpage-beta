@@ -4,7 +4,7 @@ $(document).ready(function () {
     function ShowPictures(){
         $(".big").css({ "height": $(window).height() + "px" });
         $(".big").css({ "width": $(window).width() + "px" });
-        $(".big").css({ "background": "rgba(255, 255, 255, 0.8)" });
+        $(".big").css({ "background": "rgba(0, 0, 0, 0.8)" });
         $(".big").css({ "position": "fixed" });
         $(".big").css({ "text-align": "center" });
         NapalniDiv();
@@ -33,7 +33,7 @@ $(document).ready(function () {
     }
 
     function NapalniDiv(){
-        $(".image").html("<img id='1' class='showImg' src='images/FunPageImages/enhanced-buzz-17903-1374739080-12.jpg' />");
+        $(".image").html("<img id='1' class='showImg' src='images/FunPageImages/enhanced-buzz-17903-1374739080-12.png' />");
     }
 
     function Responsibility() {
