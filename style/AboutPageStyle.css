@@ -61,21 +61,43 @@ nav {
     }
 
 main {
-    border: 1px solid red;
     border-radius: 5px;
     width: 100%;
 }
+    
+    main .item {
+        height: 550px;
+    }
 
-#nextButton{
-    position: relative;
-    top: 200px;
-    float: right;
-}
+    main .item img{
+        width: 25%;
+        float: left;
+    }
 
-#prevButton{
-    position: relative;
-    top: 200px;
-}
+    main h2 {
+        color: white;
+        text-align: center;
+    }
+
+    main div {
+        color: white;
+        text-align: center;
+    }
+
+    main hr {
+        width: 50%;
+    }
+
+    #nextButton{
+        position: relative;
+        top: 320px;
+        float: right;
+    }
+
+    #prevButton{
+        position: relative;
+        top: 320px;
+    }
 
 footer {
     width: 100%;
@@ -168,11 +190,6 @@ a {
     nav{
         height: 150px;
         text-align: center;
-    }
-
-
-    #content{
-        display: none;
     }
 
     section{
