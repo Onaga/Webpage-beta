@@ -39,12 +39,14 @@ div#opening-text-div {
     font-size: 2rem;
     color: #4ee;
     opacity: 0;
-    z-index:3;
+    /*z-index:3;*/
     -webkit-animation: opening-text;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-duration: 10s;
+    -webkit-animation-delay: 0.5s;
     animation: opening-text ease-in-out;
     animation-iteration-count:1;
+    animation-delay:0.5s;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
 }
@@ -91,12 +93,13 @@ h1#team-wars {
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-duration: 5s;
     -webkit-animation-delay: 11.5s;
+    -webkit-animation-iteration-count:1;
     animation: team-wars;
     animation-timing-function: ease-in-out;
     animation-duration: 5s;
     animation-delay: 11.5s;
     animation-iteration-count:1;
-    z-index:2;
+    /*z-index:2;*/
 }
 
 @-webkit-keyframes team-wars {
@@ -147,7 +150,9 @@ h1#team-wars {
 div#titles-text {
     position: absolute;
     top: 100%;
+    -webkit-animation: test linear 40s 15s;
     animation: test linear 40s 15s;
+
 }
 @keyframes test{
     0% {
@@ -186,7 +191,6 @@ div#titles-text {
     }
 }
 
-
 div#titles-text p {
     text-align: justify;
     margin: 1rem auto;
@@ -195,14 +199,13 @@ div#titles-text p {
 
 }
 
-
 div#titles-text .center {
     text-align: center;
     font-weight: 700;
     font-size: 300%;
 }
-img.cash{
-    width:8rem;
+.cash{
+    width:6rem;
     height:auto;
 }
 div#titles-text a {
@@ -232,7 +235,4 @@ footer p{
 }
 form{
        opacity:0;
-}
-{
-
 }
