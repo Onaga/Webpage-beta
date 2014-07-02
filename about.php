@@ -1,29 +1,8 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>About</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/hover.js"></script>
-    <script type="text/javascript" src="js/changeColors.js"></script>
-    <link rel="stylesheet" href="style/AboutPageStyle.css" type="text/css" />
-</head>
-<body>
-    <div class="wrapper">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="bookOfMagic.html">Book</a></li>
-                <li><a href="fun.html">Fun</a></li>
-                <li><a href="art.html">Art</a></li>
-                <li><a href="softuni.html">SoftUni</a></li>
-                <li class="active"><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-        <section class="logo">
-            <img src="images/dragonProject.png" alt="logo" />
-        </section>
+﻿
+<?php 
+	include 'header.php';
+?>
+	<div id="aboutContent">
         <main>
             <img src="images/AboutPageImages/left.png" alt="leftarrow" id="prevButton" />
             <img src="images/AboutPageImages/right.png" alt="rightarrow" id="nextButton" />
@@ -121,41 +100,8 @@
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="FooterProvide">
-                <h2>We provide you:</h2>
-                <ul>
-                    <li>Site Functionality</li>
-                    <li>Full Support</li>
-                    <li>Reviews</li>
-                    <li>User Friendly</li>
-                    <li>We Are Social</li>
-                </ul>
-            </div>
-            <div class="menu">
-                <h2>Site Map</h2>
-                <ul>
-                    <li><a href="explore.html">Book of Magic</a></li>
-                    <li><a href="fun.html">Fun</a></li>
-                    <li><a href="art.html">Art</a></li>
-                    <li><a href="softuni.html">SoftUni</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="SocialDiv">
-                <h2>ONAGA TEAMWORK PROJECT <br /> &copy; 2014 All Rights Reserved</h2>
-                <img src="images/HomePageImages/facebook.png" alt="facebook" />
-                <img src="images/HomePageImages/twitter.png" alt=" twitter" />
-                <img src="images/HomePageImages/gmail.png" alt="gmail" />
-                <br />
-                <a href="https://softuni.bg/"><img src="images/HomePageImages/SoftLogo.png" alt="softlogo" /></a>
-                <br />
-                <a href="http://validator.w3.org/check"><img src="images/html.png" alt="html" /></a>
-                <a href="http://www.css-validator.org/"><img src="images/css.png" alt="css" /></a>
-            </div>
-        </footer>
-    </div>
-</body>
-<script type="text/javascript" src="js/JqueryAboutPage.js"></script>
-</html>
+		</div>
+		<script type="text/javascript" src="js/JqueryAboutPage.js"></script>
+ <?php
+	include 'footer.php';
+ ?>
