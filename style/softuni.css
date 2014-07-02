@@ -1,12 +1,13 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .wrapper {
-    height: 1218px;
+    height: 1090px;
     width: 80%;
     margin: 0px auto;
     min-width: 330px;
+    background-color: transparent;
 }
 
 nav ul li img {
@@ -14,16 +15,30 @@ nav ul li img {
 }
 
 nav {
-    background-color: #232323;
-    height: 50px;
+    background-color: #000000;
+    height: 30px;
     margin: 0 0 0 0;
-}
+    border-radius: 10px 10px 0 0;   
 
+}
+    nav p{
+        margin: 0 0 0 20px;
+        color: white;
+        font-size: 30px;
+        font-style: italic;
+      
+
+        
+
+    }
     nav ul {
         float: right;
         list-style: none;
-        margin: 0 auto;
+        margin: 0.3%;
         line-height: 25px;
+        background-color: #000000;
+        border-radius: 5px;
+
     }
 
         nav ul li {
@@ -33,19 +48,20 @@ nav {
     nav a:link, nav a:visited {
         color: white;
         display: inline-block;
-        padding: 10px 25px;
+        padding: 0 10px 0 10px;
         height: 25px;
     }
 
     nav a:hover, nav a:active,
     nav .active a:link, nav .active a:visited {
-        background-color: #ECE04E;
+        background-color: #C0D4B6;
         color: black;
         border-radius: 5px;
     }
 
     nav ul li a {
         border-radius: 5px;
+        font-size: 20px;
     }
 
 .logo {
@@ -57,13 +73,14 @@ nav {
     .logo img {
         width: 100%;
         height: 200px;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 20px 20px;
     }
 
-main {
+#main {
     float: right;
     border-radius: 5px;
-    width: 67%;
+    width: 100%;
+
 }
 
 #content {
@@ -73,76 +90,109 @@ main {
     margin: 1% 2% 0 0;
     width: 95%;
     height: 490px;
-    background-color: white;
+    background-color: transparent;
+    overflow: scroll;
+    background-image: url('../images/');
+    background-repeat: no-repeat;
 }
+#content img{
+    width: 260px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+  #content p{
+    margin-left: 38.2%;
+  }
+#aside {
 
-aside {
     float: left;
     width: 25%;
-    height: 630px;
+    height: 40px;
     margin-left: 4%;
+    overflow: hidden;
+    border-bottom-right-radius: 40px;
+
 }
 
-aside h2{
-    margin-top: 1%;
-    color: white;
+#showMe{
+    float: left;
+    cursor: pointer;
+    visibility: visible;
+    background-color: white;
+    border:0px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    border:2px solid black;
+}
+#hideMe{
+    visibility: hidden;
+    float: right;
+    background-color: white;
+    cursor: pointer;
+    border:0px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    border:2px solid black;
 }
 
 .topSideBar {
     color: white;
     width: 90%;
-    background-color: #D21C13;
+    background-color: white;
     margin-left: 3%;
-    margin-top: -1%;
     padding: 2% 3%;
     border-top: 0px solid #161107;
-    background: rgba(210,28,19,1);
-    background: -moz-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,28,19,1)), color-stop(20%, rgba(210,28,19,1)), color-stop(86%, rgba(213,55,27,1)), color-stop(98%, rgba(214,60,29,1)), color-stop(100%, rgba(214,60,29,1)));
-    background: -webkit-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
-    background: -o-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
-    background: -ms-linear-gradient(top, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
-    background: linear-gradient(to bottom, rgba(210,28,19,1) 0%, rgba(210,28,19,1) 20%, rgba(213,55,27,1) 86%, rgba(214,60,29,1) 98%, rgba(214,60,29,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d21c13', endColorstr='#d63c1d', GradientType=0 );
 }
 
-    .topSideBar img {
-        width: 45%;
-        height: 100px;
-        border-radius: 5px;
+    .topSideBar h2{
+        text-align: center;
+        color: #046380;
     }
-
 .middleSideBar {
     width: 90%;
-    background-color: #D21C13;
+    background-color: white;
     margin: 0 0 0 3%;
     padding: 2% 3%;
-    background: rgba(214,61,29,1);
-    background: -moz-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(214,61,29,1)), color-stop(7%, rgba(214,61,29,1)), color-stop(68%, rgba(214,64,30,1)), color-stop(100%, rgba(228,164,60,1)));
-    background: -webkit-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
-    background: -o-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
-    background: -ms-linear-gradient(top, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
-    background: linear-gradient(to bottom, rgba(214,61,29,1) 0%, rgba(214,61,29,1) 7%, rgba(214,64,30,1) 68%, rgba(228,164,60,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d63d1d', endColorstr='#e4a43c', GradientType=0 );
 }
+    .middleSideBar h2{
+        text-align: center;
+        color: #046380;
+    }
+    .middleSideBar p{
+        text-align: center;
+        color: #046380;
+    }
+    .middleSideBar img{
+        width: 100%;
 
+    }
 .bottomSideBar {
     width: 90%;
-    background-color: #D21C13;
+    background-color: white;
     margin: 0 0 0 3%;
     border-radius: 0 0 10px 10px;
     padding: 2% 3%;
-    background: rgba(228,164,60,1);
-    background: -moz-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,164,60,1)), color-stop(10%, rgba(228,164,60,1)), color-stop(92%, rgba(236,224,78,1)), color-stop(100%, rgba(236,224,78,1)));
-    background: -webkit-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
-    background: -o-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
-    background: -ms-linear-gradient(top, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
-    background: linear-gradient(to bottom, rgba(228,164,60,1) 0%, rgba(228,164,60,1) 10%, rgba(236,224,78,1) 92%, rgba(236,224,78,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4a43c', endColorstr='#ece04e', GradientType=0 );
 }
-
+    .bottomSideBar h2{
+        text-align: center;
+        color: #046380;
+    }
+    .bottomSideBar img{
+        width: 100%;
+        color: #046380;
+    }
+    .bottomSideBar p{
+        text-align: center;
+        color: #046380;
+    }
 
 section {
     margin-top: 1%;
@@ -193,12 +243,14 @@ section {
 footer {
     width: 100%;
     height: 300px;
-    border-radius: 10px 10px 0 0;
-    background-color: #232323;
+    border-radius: 20px 20px 0 0;
+    
+    background-color: #000000;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     display: inline-block;
     float: left;
+
 }
 
     footer .FooterProvide {
@@ -208,7 +260,7 @@ footer {
     }
 
     footer h2 {
-        color: #AFAFAF;
+        color: #046380;
     }
 
     footer ul {
@@ -217,13 +269,13 @@ footer {
     }
 
         footer ul li {
-            color: #AFAFAF;
+            color: #046380;
             list-style-image: url("../images/tikche.png");
             font-size: 16px;
         }
 
     footer .menu ul li a {
-        color: #AFAFAF;
+        color: #046380;
         list-style-image: url("../images/tikche.png");
         font-size: 16px;
     }
@@ -306,7 +358,7 @@ a {
     }
 
     .topSideBar , .middleSideBar , .bottomSideBar {
-        border: 1px solid red;
+       
         width: 90%;
     }
 
