@@ -3,7 +3,17 @@
 	include 'header.php';
 ?>
 <div id="bookOfMagicContent">
-	<section>
+
+	<main>
+		<div id="content">
+			<form method="post" action="saveComment.php">
+				<input type="text" name="username" id="username" placeholder="UserName"/>
+				<textarea name="commentText" id="commentText" placeholder="Here type your comment"></textarea>
+				<input type="submit" id="subButton" value="Submit" />
+			</form>
+		</div>
+	</main>
+		<section>
 			<?php
 			//path to file
 			$file = "data/comments.zontak";
@@ -25,15 +35,6 @@
 			}
 			?>
 	</section>
-	<main>
-		<div id="content">
-			<form method="post" action="saveComment.php">
-				<input type="text" name="username" id="username" placeholder="UserName"/>
-				<textarea name="commentText" id="commentText" placeholder="Here type your comment"></textarea>
-				<input type="submit" id="subButton" value="Submit" />
-			</form>
-		</div>
-	</main>
 </div>
 <?php
 	include 'footer.php';

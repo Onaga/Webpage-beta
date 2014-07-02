@@ -31,7 +31,9 @@
                 <a href="http://validator.w3.org/check"><img src="images/html.png" alt="html" /></a>
                 <a href="http://www.css-validator.org/"><img src="images/css.png" alt="css" /></a>
             </div>
+			<div class="clearFix"></div>
         </footer>
+		<div class="clearFix"></div>
     </div>
 </body>
 </html>

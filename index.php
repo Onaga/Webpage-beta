@@ -3,20 +3,7 @@
 	include 'header.php';
 ?>
 <div id="indexContent">
-	<section>
-		<div class="firstArticle">
-			<img src="images/df82a434bc374393fc3007216540219b.jpg"/>
-		</div>
-		<div class="secondArticle">
-			<img src="images/HomePageImages/8cc61650_o.jpeg"/>
-		</div>
-		<div class="thirdArticle">
-			<img src="images/HomePageImages/book.jpg"/>
-		</div>
-		<div class="fourthArticle">
-			 <img src="images/HomePageImages/lisa-simpson-bored.jpg"/>
-		</div>
-	</section>
+	
 	<aside>
 		<div class="topSideBar">
 			<article>
@@ -43,6 +30,21 @@
 		</div>
 	</aside>
 	<main>
+	<section>
+		<div class="firstArticle">
+			<img src="images/df82a434bc374393fc3007216540219b.jpg"/>
+		</div>
+		<div class="secondArticle">
+			<img src="images/HomePageImages/8cc61650_o.jpeg"/>
+		</div>
+		<div class="thirdArticle">
+			<img src="images/HomePageImages/book.jpg"/>
+		</div>
+		<div class="fourthArticle">
+			 <img src="images/HomePageImages/lisa-simpson-bored.jpg"/>
+		</div>
+	</section>
+	
 		<div id="content">
 			<img id="con" src="images/SoftUni-Wallpaper-1440-900.png"/>
 		</div>
