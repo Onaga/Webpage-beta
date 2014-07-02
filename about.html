@@ -5,15 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/dropDownMood.js"></script>
     <script type="text/javascript" src="js/hover.js"></script>
     <script type="text/javascript" src="js/changeColors.js"></script>
-    <link rel="stylesheet" href="style/styleArt.css" type="text/css" />
+    <link rel="stylesheet" href="style/AboutPageStyle.css" type="text/css" />
 </head>
 <body>
     <div class="wrapper">
         <nav>
-           
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="bookOfMagic.html">Book</a></li>
@@ -27,35 +25,19 @@
         <section class="logo">
             <img src="images/dragonProject.png" alt="logo" />
         </section>
-        
-        <aside>
-            <div class="topSideBar">
-                <article>
-                    <h2>Meet us</h2>
-                    <a href="https://softuni.bg/users/profile/show/zontak"><img src="images/kristian.jpg" alt="kristiyan" /></a>
-                    <a href="https://softuni.bg/users/profile/show/dimitarstoyanov90"><img src="images/mitko.jpg" alt="mitko" /></a>
-                    <a href="https://softuni.bg/users/profile/show/kyamaliev"><img src="images/kosio.jpg" alt=" kosio" /></a>
-                    <a href="https://softuni.bg/users/profile/show/aciii"><img src="images/asen.jpg" alt="asen" /></a>
-                </article>
-                <hr />
-            </div>
-            <div class="middleSideBar">
-                <article>
-                    <h2>Middle Side</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </article>
-                <hr />
-            </div>
-            <div class="bottomSideBar">
-                <article>
-                    <h2>Bottom Side</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </article>
-            </div>
-        </aside>
         <main>
+            <img src="images/AboutPageImages/left.png" alt="leftarrow" id="prevButton" />
+            <img src="images/AboutPageImages/right.png" alt="rightarrow" id="nextButton" />
             <div id="content">
-            	
+                <div class="item">
+                    <img class="image" src="images/KristianPic.jpg">
+                </div>
+                <div class="item">
+                    <img class="image" src="images/MitkoPic.jpg">
+                </div>
+                <div class="item">
+                    <img class="image" src="images/KosioPic.jpg">
+                </div>
             </div>
         </main>
         <footer>
@@ -94,4 +76,5 @@
         </footer>
     </div>
 </body>
+<script type="text/javascript" src="js/JqueryAboutPage.js"></script>
 </html>
