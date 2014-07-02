@@ -21,8 +21,6 @@ body, html {
 
 header {
     background-color: darkred;
-    text-align:cemter;
-
 }
 header img{
     height:250px;
@@ -44,10 +42,10 @@ div#opening-text-div {
     z-index:3;
     -webkit-animation: opening-text;
     -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-duration: 6s;
+    -webkit-animation-duration: 10s;
     animation: opening-text ease-in-out;
     animation-iteration-count:1;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
 }
 
@@ -80,8 +78,6 @@ div#opening-text-div {
 }
 
 h1#team-wars {
-    border:1px solid green;
-    /*display:block;*/
     width: 30rem; /*this dictates for some reason the shrinking vector*/
     margin: 0 auto; /*3rem for some reason defines the position of div titles-angle*/
     text-align: center;
@@ -94,12 +90,13 @@ h1#team-wars {
     -webkit-animation: team-wars;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 6s;
+    -webkit-animation-delay: 11.5s;
     animation: team-wars;
     animation-timing-function: ease-in-out;
     animation-duration: 5s;
-    animation-delay: 6s;
+    animation-delay: 11.5s;
     animation-iteration-count:1;
+    z-index:2;
 }
 
 @-webkit-keyframes team-wars {
@@ -135,44 +132,30 @@ h1#team-wars {
         opacity: 0;
     }
 }
-
 #titles-angle {
-    position: absolute;
-	width: 18em;
-	height: 80%;
-	bottom: 25%;
-	left: 50%;
-	margin-left: -9em;
-	font-size: 3.5rem;
-	text-align: justify;
-	overflow: hidden;
-	-webkit-transform-origin: 50% 100%;
-	-moz-transform-origin: 50% 100%;
-	-ms-transform-origin: 50% 100%;
-	-o-transform-origin: 50% 100%;
-	transform-origin: 50% 100%;
-	-webkit-transform: perspective(300px) rotateX(25deg);
-	-moz-transform: perspective(20rem) rotateX(25deg);
-	-ms-transform: perspective(300px) rotateX(25deg);
-	-o-transform: perspective(300px) rotateX(25deg);
-	transform: perspective(300px) rotateX(25deg);
+    overflow:hidden;
+    position:absolute;
+    top:16rem;
+    width:40rem;
+    height:50%;
+    left:50%;
+    margin-left:-20%;
+    
+    /*transform: perspective (300px) rotateX(15deg)*/
 }
 
 div#titles-text {
-    position: relative;
-    /*top: 50%;*/
-    -webkit-animation: crawl;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 50s;
-    -webkit-animation-delay: 11s;
-    animation: crawl;
-    animation-timing-function: linear;
-    animation-duration: 50s;
-    animation-delay: 11s;
-    animation-iteration-count: 1;
-    opacity: 0;
-    text-align: center;
-    font-size: 1rem;
+    position: absolute;
+    top: 100%;
+    animation: test linear 40s 15s;
+}
+@keyframes test{
+    0% {
+        top: 100%;
+    }
+    100%{
+        top:-200%;
+    }
 }
 @-webkit-keyframes crawl {
 
@@ -191,24 +174,25 @@ div#titles-text {
 @keyframes crawl {
 
     0% {
-        top: 100%;
+        top: 20%;
         opacity:1;
     }
     99%{
         opacity:1;
     }
     100% {
-        top: -600%;
-        opacity:0;
+        top: -500%;
+        opacity:1;
     }
 }
 
 
 div#titles-text p {
-    text-align: center;
+    text-align: justify;
     margin: 1rem auto;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 2rem;
+
 }
 
 
@@ -217,19 +201,38 @@ div#titles-text .center {
     font-weight: 700;
     font-size: 300%;
 }
-div#titles-text img#dollar{
-    width:15rem;
+img.cash{
+    width:8rem;
     height:auto;
-}
-div#titles-text img#euro{
-    width: 15rem;
-    height: auto;
 }
 div#titles-text a {
     color: #ff6;
     text-decoration: underline;
 }
-footer{
-    top:80%;
+footer p{
+    display:block;
+    margin-top: 10rem;
 }
+#buttons{
+    top:80%;
+    position:absolute;
+    left:50%;
+    margin-left:-6rem;
+    text-align:center;
+}
+.button{
+    
+    font-family: "Droid Sans";
+    background-color:yellow;
+    border: 6px yellow;
+    border-radius:0.5rem;
+    color:black;
+    font-size:20px;
+    width:6rem;
+}
+form{
+       opacity:0;
+}
+{
 
+}
