@@ -84,8 +84,67 @@ main {
         text-align: center;
     }
 
+    main .Metters{
+        width: 30%;
+        margin-left: 5%;
+        height: 300px;
+        float: left;
+    }
+
+    .firstMetter{
+        width: 70%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 3%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .secondMetter{
+        width: 50%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .thirdMetter{
+        width: 53%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .fourthMetter{
+        width: 43%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
+    .fifthMetter{
+        width: 35%;
+        background-color: gray;
+        height: 20px;
+        margin-top: 7%;
+        margin-left: 25%;
+        color: black;
+    }
+
     main hr {
         width: 50%;
+    }
+
+    .Social{
+        width: 30%;
+        margin-right: 5%;
+        height: 300px;
+        float: right;
     }
 
     #nextButton{
