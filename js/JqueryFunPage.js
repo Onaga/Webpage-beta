@@ -1,3 +1,5 @@
+//zontak jquery file :)
+
 $(document).ready(function () {
     function ShowPictures(){
         $(".big").css({ "height": $(window).height() + "px" });

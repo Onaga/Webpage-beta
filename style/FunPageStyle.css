@@ -3,6 +3,10 @@ body, div, ul, li, span, article, section, header, main, footer{
     padding: 0px;
 }
 
+img{
+    max-width: 100%;
+}
+
 body {
     background-color: black;
 }
