@@ -11,13 +11,19 @@
 <body>
     <header>
         <a href="index.html"><img src="images/logo.png"></a>
-        <audio id="audio" controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000) ">
+        <!--<audio id="player" src="audio\kyuchek.mp3"></audio>-->
+        <audio id="audio" controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function () { audioPlayer.play(); }, 1000); audio.controls=false;">
             <source src="audio/kyuchek.mp3" type="audio/mp3" />
         </audio>
-        <script>var audio = document.getElementById("audio")
+        <div id="audio-controls">
+            <button onclick="document.getElementById('audio').muted=!document.getElementById('audio').muted">Mute/ Unmute</button>
+            
+        </div>
+        
+        <!--<script>var audio = document.getElementById("audio")
             audio.contros = false;
         </script>
-        <button id="mute" onclick="toggleMute()">Mute</button>
+        <button id="mute" onclick="toggleMute()">Mute</button>-->
     </header>
     <div id="opening-text-div">
         <p id="start-first-row">
@@ -34,14 +40,14 @@
             <p>Just to ace the test is not enough. It all comes down to the bonus points.</p>
             <p>We all battle for points. Some spam the forum, others do other things.</p>
             <p>All of us, though, are coding websites.</p>
-            <p>And the jury can't be bribed. ; </p>
+            <p>And the jury can't be bribed&hellip; </p>
             <br />
-            <p>We offered&hellip; <img id="dollar" src="images/dollars.jpg" alt="100 dollars pic" /></p>
+            <p style="text-align:left">We offered&hellip; <img class="cash" src="images/dollars.jpg" alt="100 dollars pic" /></p>
             <br />
-            <p>&hellip; but they WANTED&hellip; <img id="euro" src="images/euro.jpg" alt="500 euro pic" /></p>
+            <p style="text-align:left">&hellip; but they WANTED&hellip; <img class="cash" src="images/euro.jpg" alt="500 euro pic" /></p>
             <br />
-            <p style="font-weight:700; font-size:0.8rem">MAY THE POINTS BE WITH YOU!</p>
-            <p class="center"><a href="home.html">Welcome to our site.</a></p>
+            <p id="phrase">MAY THE POINTS BE WITH YOU!</p>
+            <p class="welcome"><a href="home.html">Welcome to our site.</a></p>
         </div>
     </div>
     <form>

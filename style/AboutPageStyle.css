@@ -1,9 +1,9 @@
 ﻿body {
-    background-color: black;
+    background-color: silver;
 }
 
 .wrapper {
-    height: 1218px;
+    height: 1090px;
     width: 80%;
     margin: 0px auto;
     min-width: 330px;
@@ -14,16 +14,24 @@ nav ul li img {
 }
 
 nav {
-    background-color: #232323;
-    height: 50px;
+    background-color: #EFECCA;
+    height: 30px;
     margin: 0 0 0 0;
+    border-radius: 10px 10px 0 0;   
 }
-
+    nav p{
+        margin: 0 0 0 20px;
+        color: white;
+        font-size: 30px;
+        font-style: italic;
+    }
     nav ul {
         float: right;
         list-style: none;
-        margin: 0 auto;
+        margin: 0%;
         line-height: 25px;
+        background-color: #EFECCA;
+        border-radius: 5px;
     }
 
         nav ul li {
@@ -33,19 +41,20 @@ nav {
     nav a:link, nav a:visited {
         color: white;
         display: inline-block;
-        padding: 10px 25px;
+        padding: 0 10px 0 10px;
         height: 25px;
     }
 
     nav a:hover, nav a:active,
     nav .active a:link, nav .active a:visited {
-        background-color: #ECE04E;
+        background-color: white;
         color: black;
         border-radius: 5px;
     }
 
     nav ul li a {
         border-radius: 5px;
+        font-size: 20px;
     }
 
 .logo {
@@ -57,7 +66,7 @@ nav {
     .logo img {
         width: 100%;
         height: 200px;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 20px 20px;
     }
 
 main {
@@ -162,7 +171,7 @@ footer {
     width: 100%;
     height: 300px;
     border-radius: 10px 10px 0 0;
-    background-color: #232323;
+    background-color: #EFECCA;
     margin-top: 2%;
     margin-bottom: 2%;
     display: inline-block;
