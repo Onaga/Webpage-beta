@@ -5,7 +5,7 @@ $(document).ready(function () {
         $(".big").css({ "height": $(window).height() + "px" });
         $(".big").css({ "width": $(window).width() + "px" });
         $(".big").css({ "background": "rgba(0, 0, 0, 0.8)" });
-        $(".big").css({ "position": "fixed" });
+        $(".big").css({ "position": "relative" });
         $(".big").css({ "text-align": "center" });
         NapalniDiv();
         $(".big").show();
