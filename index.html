@@ -5,28 +5,20 @@
     <link rel="stylesheet" href="style/intro-style.css" type="text/css" />
     <meta charset="utf-8" />
     <title>
-        Team ONAGA
+        Team Wars
     </title>
 </head>
 <body>
-    <header>
-        <!--
-        <a href="index.html"><img src="images/logo.png"></a>
-        <audio id="player" src="audio\kyuchek.mp3"></audio>
-        <audio id="audio" controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function () { audioPlayer.play(); }, 1000); audio.controls=false;">
-            <source src="audio/kyuchek.mp3" type="audio/mp3" />
-        </audio>
-        <div id="audio-controls">
-            <button onclick="document.getElementById('audio').muted=!document.getElementById('audio').muted">Mute/ Unmute</button>
+    <header></header>
 
-        </div>
-
-        <!--<script>var audio = document.getElementById("audio")
-            audio.contros = false;
-        </script>
-        <button id="mute" onclick="toggleMute()">Mute</button>-->
-
-    </header>
+    <audio id="player" src="audio\kyuchek.mp3"></audio>
+    <audio id="audio" controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 000); audio.controls=false;">
+        <source src="audio/kyuchek.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var audio = document.getElementById("audio")
+        audio.contros = false;
+    </script>
     <div id="opening-text-div">
         <p id="start-first-row">
             A short time ago, someone in SoftUni,
@@ -42,7 +34,7 @@
             <p class="center" id="web-findamentals">Web Fundamentals</p>
             <p>It is a period of team wars. The ultimate goal is the test on sunday.</p>
             <p>But, just to ace the test is not enough. It all comes down to the bonus points.</p>
-            <p>We all battle for points. Some spam the forum, OTHERS JUST BEG FOR MERCY!</p>
+            <p>We all battle for points. Some spam the forum, others have their own ways!</p>
             <p>All of us, though, are coding websites.</p>
             <p>And the jury can't be bribed&hellip; </p>
             <br />
@@ -52,20 +44,19 @@
             <p>Greedy bastards!</p>
             <br />
             <p id="phrase">MAY THE POINTS BE WITH YOU!</p>
-            <p class="welcome"><a href="home.html">Welcome to our site.</a></p>
+            <p class="welcome"><a href="home.html">Welcome to Team Wars&trade;</a></p>
         </div>
     </div>
-    <!--<form>
-
-    </form>
+    <form></form>
     <form action="">
         <input type="button" value="">
     </form>
 
     <div id="buttons">
-        <button id="button-skip" class="button" type="button" onclick="location.href='intro.html'">Repeat</button>
-        <button id="button-repeat" class="button" type="button" onclick="location.href='index.html'">Skip</button>
-    </div>-->
-
+        <button id="button-repeat" class="button" type="button" onclick="location.href='index.html'">Repeat</button>
+        <button id="button-mute" class="button" type="button" onclick="document.getElementById('audio').muted=!document.getElementById('audio').muted">Mute</button>
+        <button id="button-skip" class="button" type="button" onclick="location.href='home.html'">Skip</button>
+    </div>
+    <footer></footer>
 </body>
 </html>
