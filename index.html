@@ -1,113 +1,62 @@
 ﻿<!DOCTYPE html>
-<html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>TeamWork Homepage</title>
+    <link rel="stylesheet" href="style/intro-style.css" type="text/css" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/dropDownMood.js"></script>
-    <script type="text/javascript" src="js/hover.js"></script>
-    <script type="text/javascript" src="js/changeColors.js"></script>
-    <link rel="stylesheet" href="style/HomePageStyle.css" type="text/css" />
+    <title>
+        Team Wars
+    </title>
 </head>
 <body>
-    <div class="wrapper">
-        <nav>
-           
-            <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="bookOfMagic.html">Book</a></li>
-                <li><a href="fun.html">Fun</a></li>
-                <li><a href="art.html">Art</a></li>
-                <li><a href="softuni.html">SoftUni</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-        <section class="logo">
-            <img src="images/Untitled-8.png" alt="logo" />
-        </section>
-        <section>
-            <a href="art.html"><div class="firstArticle">
-                    <p class="articles">Art</p>
-                    <img src="images/df82a434bc374393fc3007216540219b.jpg"/>
-                </div>
-            </a>
-            <a href="fun.html"> <div class="secondArticle">
-                <p class="articles">Fun</p>
-                <img src="images/FunPageImages/enhanced-buzz-20746-1374746508-22.png"/>
-            </div></a>
-            <a href="bookOfMagic.html"> <div class="thirdArticle">
-                <p class="articles">Guest book</p>
-                <img src="images/FunPageImages/06_17_2013_book-smell.jpg"/>
-            </div></a>
-           <a href="about.html">  <div class="fourthArticle">
-                <p class="articles">About</p>
-                 <img src="images/FunPageImages/enhanced-buzz-17903-1374739080-12.png"/>
-            </div></a>
-        </section>
-        <aside>
-            <div class="topSideBar">
-                <article>
-                    <h2>Wellcome to our official Onaga Website</h2>
-                </article>
-                <hr />
-            </div>
-            <div class="middleSideBar">
-                <article>
-                    <h2>Beautifull art galleries</h2>
-                    <p>A touch to Leonardo da Vinci's art</p>
-                    <img src="images/df82a434bc374393fc3007216540219b.jpg"/>
-                </article>
-                <hr />
-            </div>
-            <div class="bottomSideBar">
-                <article>
-                    <h2>Fun page</h2>
-                    <p>Some color for a sad day</p>
-                    <img src="images/lisa-simpson-bored.jpg"/>
-                    <h2>Just Look Around</h2>
-                </article>
-            </div>
-        </aside>
-        <main>
-            <div id="content">
-                <img id="con" src="images/SoftUni-Wallpaper-1440-900.png"/>
-            </div>
-        </main>
-        <footer>
-            <div class="FooterProvide">
-                <h2>We provide you:</h2>
-                <ul>
-                    <li>Site Functionality</li>
-                    <li>Full Support</li>
-                    <li>Reviews</li>
-                    <li>User Friendly</li>
-                    <li>We Are Social</li>
-                </ul>
-            </div>
-            <div class="menu">
-                <h2>Site Map</h2>
-                <ul>
-                    <li><a href="bookOfMagic.html">Book of Magic</a></li>
-                    <li><a href="fun.html">Fun</a></li>
-                    <li><a href="art.html">Art</a></li>
-                    <li><a href="softuni.html">SoftUni</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="SocialDiv">
-                <h2>ONAGA TEAMWORK PROJECT <br /> &copy; 2014 All Rights Reserved</h2>
-                <img src="images/HomePageImages/facebook.png" alt="facebook" />
-                <img src="images/HomePageImages/twitter.png" alt=" twitter" />
-                <img src="images/HomePageImages/gmail.png" alt="gmail" />
-                <br />
-                <a href="https://softuni.bg/"><img src="images/HomePageImages/SoftLogo.png" alt="softlogo" /></a>
-                <br />
-                <a href="http://validator.w3.org/check"><img src="images/html.png" alt="html" /></a>
-                <a href="http://www.css-validator.org/"><img src="images/css.png" alt="css" /></a>
-            </div>
-        </footer>
+    <header></header>
+
+    <audio id="player" src="audio\kyuchek.mp3"></audio>
+    <audio id="audio" controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 000); audio.controls=false;">
+        <source src="audio/kyuchek.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var audio = document.getElementById("audio")
+        audio.contros = false;
+    </script>
+    <div id="opening-text-div">
+        <p id="start-first-row">
+            A short time ago, someone in SoftUni,
+        </p>
+        <p id="start-second-row">
+            started it all&hellip;
+        </p>
     </div>
+    <h1 id="team-wars">TEAM WARS</h1>
+    <div id="titles-angle">
+        <div id="titles-text">
+            <p class="center" id="episode2">EPISODE II</p>
+            <p class="center" id="web-findamentals">Web Fundamentals</p>
+            <p>It is a period of team wars. The ultimate goal is the test on sunday.</p>
+            <p>But, just to ace the test is not enough. It all comes down to the bonus points.</p>
+            <p>We all battle for points. Some spam the forum, others have their own ways!</p>
+            <p>All of us, though, are coding websites.</p>
+            <p>And the jury can't be bribed&hellip; </p>
+            <br />
+            <p style="text-align:left">We offered&hellip; <img class="cash" src="images/dollars.jpg" alt="100 dollars pic" /></p>
+            <br />
+            <p style="text-align:left">&hellip; but they WANTED&hellip; <img class="cash" src="images/euro.jpg" alt="500 euro pic" /></p>
+            <p>Greedy bastards!</p>
+            <br />
+            <p id="phrase">MAY THE POINTS BE WITH YOU!</p>
+            <p class="welcome"><a href="home.html">Welcome to Team Wars&trade;</a></p>
+        </div>
+    </div>
+    <form></form>
+    <form action="">
+        <input type="button" value="">
+    </form>
+
+    <div id="buttons">
+        <button id="button-skip" class="button" type="button" onclick="location.href='intro.html'">Repeat</button>
+        <button id="button-repeat" class="button" type="button" onclick="document.getElementById('audio').muted=!document.getElementById('audio').muted">Mute</button>
+        <button id="button-repeat" class="button" type="button" onclick="location.href='index.html'">Skip</button>
+    </div>
+    <footer></footer>
 </body>
 </html>
