@@ -1,0 +1,438 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+body, html {
+    color: #ff6;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
+}
+
+p#start-second-row {
+    text-align: left;
+    margin: -6% auto;
+}
+
+div#opening-text-div {
+    display: block;
+    width: 34rem;
+    margin: 6rem auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #4ee;
+    opacity: 0;
+    -webkit-animation: opening-text;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 10s;
+    animation: opening-text ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes opening-text {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes opening-text {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+h1#team-wars {
+    /*display:block;*/
+    width: 30rem; /*this dictates for some reason the shrinking vector*/
+    margin: 0 auto; /*3rem for some reason defines the position of div titles-angle*/
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 8rem;
+    color: black;
+    opacity: 0;
+    text-shadow: -4px -4px 0px #ff6,4px -4px 0px #ff6, -4px 4px 0px #ff6, 4px 4px 0px #ff6;
+    -webkit-animation: team-wars;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-delay: 10s;
+    animation: team-wars;
+    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes team-wars {
+    1% { /*needed for delay to work in chrome*/
+        -webkit-transform: scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.5);
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes team-wars {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+#titles-angle {
+    position: absolute;
+    width: 18em;
+    height: 100%;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 3.5rem;
+    overflow: hidden;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: perspective(18rem) rotateX(15deg);
+    -o-transform: perspective(18rem) rotateX(15deg);
+    transform: perspective(18rem) rotateX(15deg);
+}
+
+    #titles-angle::after {
+        position: absolute;
+        content: ' ';
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 80%;
+        opacity:0;
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: -o-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        -webkit-animation:fade-out-fade-in;
+        -webkit-animation-duration:50s;
+        -webkit-animation-delay:16s;
+        animation:fade-out-fade-in;
+        animation-duration:50s;
+        animation-delay:16s;
+        
+    }
+    @-webkit-keyframes fade-out-fade-in{
+        0%{
+            opacity:1;
+        }
+        100%{
+            opacity:1;
+        }
+    }
+    @keyframes fade-out-fade-in{
+        0%{
+            opacity:1;
+        }
+        100%{
+            opacity:1;
+        }
+    }
+
+div#titles-text {
+    position: relative;
+    text-align: left;
+    -webkit-animation: crawl;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 50s;
+    -webkit-animation-delay: 13s;
+    animation: crawl;
+    animation-timing-function: linear;
+    animation-duration: 50s; /*50*/
+    animation-delay: 13s; /*11*/
+    animation-iteration-count: 1;
+    opacity: 0;
+    font-size: 1rem;
+}
+
+@-webkit-keyframes crawl {
+
+    0% {
+        top: 100%;
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        top: -250%;
+    }
+}
+
+@keyframes crawl {
+
+    0% {
+        top: 100%;
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        top: -250%;
+        opacity: 0;
+    }
+}
+
+
+div#titles-text p {
+    text-align: justify;
+    margin: 1rem auto;
+    font-weight: 400;
+    font-size: 3rem;
+}
+div#titles-text p.welcome {
+    text-align: center;
+    font-weight:700;
+    
+}
+div#titles-text p#phrase{
+    text-align: center;
+    
+}
+
+div#titles-text .center {
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+
+div#titles-text a {
+    color: #ff6;
+    text-decoration: underline;
+}
+
+p img.cash {
+    width: 4rem;
+    height: auto;
+    text-align: left;
+}
+
+footer {
+    position:absolute;
+    top: 90%;
+}
+
+#buttons {
+    top: 95%;
+    position: absolute;
+    left: 50%;
+    margin-left: -9rem;
+    text-align: center;
+}
+
+.button {
+    font-family: "Droid Sans";
+    background-color: yellow;
+    border: 6px yellow;
+    border-radius: 0.5rem;
+    color: black;
+    font-size: 1.25rem;
+    width: 6rem;
+}
+
+form {
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1600px) {
+    html {
+        font-size: 18px;
+    }
+
+    div#opening-text-div {
+        width: 40rem;
+        height: 5rem;
+        margin: 0 auto;
+    }
+
+    p#start-second-row {
+        text-align: left;
+        padding-left: 3rem;
+    }
+
+    h1#team-wars {
+        width: 26rem;
+        font-size: 10rem;
+        line-height: 8rem;
+    }
+
+    #titles-angle {
+        width:16em;
+        -webkit-transform: perspective(18rem) rotateX(15deg);
+        transform: perspective(18rem) rotateX(15deg);
+    }
+    #titles-angle {
+        /*width: 18em;*/
+        bottom: 25%;
+        left: 50%;
+        margin-left: -7.8em;
+        font-size: 3.2rem;
+    }
+    p img.cash {
+        width: 8rem;
+        height: auto;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+
+    div#opening-text-div {
+        margin: 2rem auto;
+        font-size: 2rem;
+    }
+
+    #titles-angle {
+        width: 12em;
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 15px;
+    }
+
+    #titles-angle {
+        -webkit-transform: perspective(16rem) rotateX(15deg);
+        transform: perspective(16rem) rotateX(15deg);
+    }
+
+    #titles-angle {
+        width: 13em;
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    div#opening-text-div {
+        margin: 1.8rem auto;
+    }
+
+    #titles-angle {
+        -webkit-transform: perspective(14rem) rotateX(12deg);
+        transform: perspective(14rem) rotateX(12deg);
+    }
+
+    #titles-angle {
+        width: 12em;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 12px;
+    }
+
+    div#opening-text-div {
+        margin: 1.8rem auto;
+    }
+
+    #titles-angle {
+        -webkit-transform: perspective(14rem) rotateX(12deg);
+        transform: perspective(14rem) rotateX(12deg);
+    }
+
+    #titles-angle {
+        width: 12em;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 5.5px;
+    }
+
+    div#opening-text-div {
+        margin: 1.4rem auto;
+    }
+
+    #titles-angle {
+        width: 8em;
+        left: 73%;
+    }
+    p img.cash {
+        width: 5rem;
+        height: auto;
+        text-align: left;
+    }
+    h1#team-wars {
+        font-size: 8rem;
+        font-weight: 700;
+        line-height: 8rem;
+        color: black;
+        opacity: 0;
+        text-shadow: -1px -1px 0px #ff6,1px -1px 0px #ff6, -1px 1px 0px #ff6, 1px 1px 0px #ff6;
+    }   
+}
