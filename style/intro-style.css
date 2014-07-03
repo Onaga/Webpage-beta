@@ -1,14 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
-*{
-
-}
-html {
-    font-size: 16px;
-    font-family: "Droid Sans", arial, verdana, sans-serif;
-}
 
 body, html {
-    font-family: "Droid Sans", arial, verdana, sans-serif;
     color: #ff6;
     background-color: black;
     overflow: hidden;
@@ -16,16 +8,12 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    text-align:center;
+    text-align: center;
 }
 
-header {
-    background-color: darkred;
-    text-align:cemter;
-
-}
-header img{
-    height:250px;
+html {
+    font-size: 16px;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
 }
 
 p#start-second-row {
@@ -36,17 +24,16 @@ p#start-second-row {
 div#opening-text-div {
     display: block;
     width: 34rem;
-    margin: -2rem auto;
+    margin: 6rem auto;
     text-align: center;
     font-size: 2rem;
     color: #4ee;
     opacity: 0;
-    z-index:3;
     -webkit-animation: opening-text;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-duration: 6s;
     animation: opening-text ease-in-out;
-    animation-iteration-count:1;
+    animation-iteration-count: 1;
     animation-duration: 6s;
     animation-timing-function: ease-in-out;
 }
@@ -80,7 +67,6 @@ div#opening-text-div {
 }
 
 h1#team-wars {
-    border:1px solid green;
     /*display:block;*/
     width: 30rem; /*this dictates for some reason the shrinking vector*/
     margin: 0 auto; /*3rem for some reason defines the position of div titles-angle*/
@@ -99,7 +85,7 @@ h1#team-wars {
     animation-timing-function: ease-in-out;
     animation-duration: 5s;
     animation-delay: 6s;
-    animation-iteration-count:1;
+    animation-iteration-count: 1;
 }
 
 @-webkit-keyframes team-wars {
@@ -120,8 +106,8 @@ h1#team-wars {
 }
 
 @keyframes team-wars {
-    0% { 
-        transform: scale(0); /*needed -webkit for the animation to work under firefox ?*/
+    0% {
+        transform: scale(0);
         opacity: 1;
     }
 
@@ -138,53 +124,67 @@ h1#team-wars {
 
 #titles-angle {
     position: absolute;
-	width: 18em;
-	height: 80%;
-	bottom: 25%;
-	left: 50%;
-	margin-left: -9em;
-	font-size: 3.5rem;
-	text-align: justify;
-	overflow: hidden;
-	-webkit-transform-origin: 50% 100%;
-	-moz-transform-origin: 50% 100%;
-	-ms-transform-origin: 50% 100%;
-	-o-transform-origin: 50% 100%;
-	transform-origin: 50% 100%;
-	-webkit-transform: perspective(300px) rotateX(25deg);
-	-moz-transform: perspective(20rem) rotateX(25deg);
-	-ms-transform: perspective(300px) rotateX(25deg);
-	-o-transform: perspective(300px) rotateX(25deg);
-	transform: perspective(300px) rotateX(25deg);
+    width: 18em;
+    height: 100%;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 3.5rem;
+    overflow: hidden;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: perspective(18.75rem) rotateX(28deg);
+    -o-transform: perspective(18.75rem) rotateX(28deg);
+    transform: perspective(18.75rem) rotateX(28deg);
 }
+
+    #titles-angle::after {
+        position: absolute;
+        content: ' ';
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 80%;
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: -o-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+        /*pointer-events: none;*/
+    }
 
 div#titles-text {
     position: relative;
-    /*top: 50%;*/
+    text-align: left;
     -webkit-animation: crawl;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 50s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-delay: 11s;
     animation: crawl;
     animation-timing-function: linear;
-    animation-duration: 50s;
-    animation-delay: 11s;
+    animation-duration: 10s; /*50*/
+    animation-delay: 11s; /*11*/
     animation-iteration-count: 1;
     opacity: 0;
-    text-align: center;
     font-size: 1rem;
 }
+
 @-webkit-keyframes crawl {
 
     0% {
         top: 100%;
-        opacity:1;
+        opacity: 1;
     }
-    99%{
-        opacity:1;
+
+    99% {
+        opacity: 1;
     }
+
     100% {
-        top: -170%;
+        top: -200%;
     }
 }
 
@@ -192,44 +192,175 @@ div#titles-text {
 
     0% {
         top: 100%;
-        opacity:1;
+        opacity: 1;
     }
-    99%{
-        opacity:1;
+
+    99% {
+        opacity: 1;
     }
+
     100% {
-        top: -600%;
-        opacity:0;
+        top: -170%;
+        opacity: 0;
     }
 }
 
 
 div#titles-text p {
-    text-align: center;
+    text-align: justify;
     margin: 1rem auto;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 
 div#titles-text .center {
     text-align: center;
     font-weight: 700;
-    font-size: 300%;
+    font-size: 4rem;
 }
-div#titles-text img#dollar{
-    width:15rem;
-    height:auto;
-}
-div#titles-text img#euro{
-    width: 15rem;
-    height: auto;
-}
+
+
 div#titles-text a {
     color: #ff6;
     text-decoration: underline;
 }
-footer{
-    top:80%;
+
+p img.cash {
+    width: 4rem;
+    height: auto;
+    text-align: left;
 }
 
+footer {
+    top: 80%;
+}
+
+@media only screen and (max-width: 1600px) {
+    html {
+        font-size: 20px;
+    }
+
+    div#opening-text-div {
+        width: 40rem;
+        height: 5rem;
+        margin: 0 auto;
+    }
+
+    p#start-second-row {
+        text-align: left;
+        padding-left: 3rem;
+    }
+
+    h1#team-wars {
+        width: 26rem;
+        font-size: 10rem;
+        line-height: 8rem;
+    }
+
+    #titles-angle {
+        -webkit-transform: perspective(20rem) rotateX(15deg);
+        transform: perspective(20rem) rotateX(15deg);
+    }
+
+    p img.cash {
+        width: 8rem;
+        height: auto;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+
+    div#opening-text-div {
+        margin: 2rem auto;
+        font-size: 2rem;
+    }
+
+    #titles-angle {
+        width: 12em;
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 15px;
+    }
+
+    #titles-angle {
+        -webkit-transform: perspective(16rem) rotateX(15deg);
+        transform: perspective(16rem) rotateX(15deg);
+    }
+
+    #titles-angle {
+        width: 13em;
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    div#opening-text-div {
+        margin: 1.8rem auto;
+    }
+
+    #titles-angle {
+        -webkit-transform: perspective(14rem) rotateX(12deg);
+        transform: perspective(14rem) rotateX(12deg);
+    }
+
+    #titles-angle {
+        width: 12em;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 12px;
+    }
+
+    div#opening-text-div {
+        margin: 1.8rem auto;
+    }
+
+    #titles-angle {
+        -webkit-transform: perspective(14rem) rotateX(12deg);
+        transform: perspective(14rem) rotateX(12deg);
+    }
+
+    #titles-angle {
+        width: 12em;
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+/*@media only screen and (max-width: 320px) {
+    html {
+        font-size: 7px;
+    }
+
+    div#opening-text-div {
+        margin: 1.4rem auto;
+    }
+
+    #titles-angle {
+        width: 8em;
+        left: 85%;
+    }
+}*/
