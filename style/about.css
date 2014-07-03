@@ -37,7 +37,11 @@ nav ul li{
 	display: inline;
 }
 nav a:link, nav a:visited {
+<<<<<<< HEAD
 	color: black;
+=======
+	color: white;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
 	display: inline-block;
 	padding: 10px 25px;
 	height: 25px;

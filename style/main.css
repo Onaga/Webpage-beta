@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+.clearFix{
+    clear:both;
+}
+
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
 body {
     background-color: black;
 }
@@ -11,7 +18,10 @@ body {
 
 nav {
     background-color: black;
+<<<<<<< HEAD
     height: 50px;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     margin: 0 0 0 0;
     font-size: 25px;
 }
@@ -47,10 +57,15 @@ nav {
 
 .logo {
     width: 100%;
+<<<<<<< HEAD
     height: 250px;
     margin-top: 0px;
     text-align: center;
     overflow: hidden;
+=======
+    margin-top: 0px;
+    text-align: center;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
 }
 
     .logo img {
@@ -60,7 +75,10 @@ nav {
 
 footer {
     width: 100%;
+<<<<<<< HEAD
     height: 300px;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     border-radius: 10px 10px 0 0;
     background-color: #232323;
     margin-top: 2%;
@@ -98,14 +116,21 @@ footer {
 
 .menu {
     width: 22%;
+<<<<<<< HEAD
     height: 265px;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     float: left;
 }
 
 .SocialDiv {
+<<<<<<< HEAD
     width: 45%;
     margin: 0 5% 0 0;
     height: 265px;
+=======
+    margin: 0 5% 0 0;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     float: right;
     text-align: center;
 }
@@ -121,9 +146,16 @@ a {
 /*Index Page*/
 
 #indexContent main {
+<<<<<<< HEAD
     float: right;
     border-radius: 5px;
     width: 67%;
+=======
+    float: left;
+    border-radius: 5px;
+    width: 65%;
+    margin-left: 2%;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
 }
 
 #indexContent #content {
@@ -211,6 +243,7 @@ a {
 
 #indexContent section {
     margin-top: 1%;
+<<<<<<< HEAD
     float: right;
     display: inline-block;
     width: 67%;
@@ -280,6 +313,35 @@ a {
 #bookOfMagicContent main {
     border: 1px solid red;
     float: left;
+=======
+    display: inline-block;
+    width: 90%;
+    border-radius: 5px;
+    color: green;
+}
+
+#indexContent .firstArticle ,
+#indexContent .secondArticle ,
+#indexContent .thirdArticle ,
+#indexContent .fourthArticle{
+    width: 24%;
+    //height: 150px;
+    display: inline-block;
+    //margin: 1% 0 0 1%;
+    cursor: pointer;
+}
+
+    .firstArticle img , 
+    .secondArticle img , 
+    .thirdArticle img ,
+    .fourthArticle img  {
+        width: 100%;
+        height: auto;
+    }
+/*bookOfMagic page*/
+
+#bookOfMagicContent main {
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     border-radius: 5px;
     width: 100%;
     height: 300px;
@@ -288,6 +350,7 @@ a {
 
 #bookOfMagicContent section {
     margin-top: 1%;
+<<<<<<< HEAD
     float: right;
     display: block;
     width: 100%;
@@ -296,13 +359,25 @@ a {
     color: white;
     background-color: black;
     font-size: 20px;
+=======
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding-bottom: 30px;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
 }
 
 #bookOfMagicContent .comment {
     border-radius: 15px;
     width: 90%;
     padding: 10px;
+<<<<<<< HEAD
     margin: 0px auto;
+=======
+    margin: 5px auto;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     background-color: #F5F4F2;
 }
 
@@ -328,19 +403,28 @@ a {
 #bookOfMagicContent #content {
     width: 100%;
     border-radius: 5px;
+<<<<<<< HEAD
     padding: 2% 2%;
+=======
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     margin: 1% 2% 0 0;
     width: 95%;
     height: 400px;
 }
 
 #bookOfMagicContent form {
+<<<<<<< HEAD
     width: 30%;
     margin: 2% 0 0 35%;
+=======
+    width: 450px;
+    margin: 0px auto;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
     text-align: center;
 }
 
 #bookOfMagicContent #username {
+<<<<<<< HEAD
     width: 100%;
     height: 30px;
     border-radius: 15px;
@@ -354,6 +438,25 @@ a {
 
 #bookOfMagicContent form #subButton {
     margin-top: 9%;
+=======
+    width: 450px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#bookOfMagicContent #commentText {
+    width: 450px;
+    height: 70px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#bookOfMagicContent form #subButton {
+    margin-top: 35px;
+    width: 100px;
+    font-size: 20px;
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
 }
 
 
@@ -439,6 +542,13 @@ aside h2{
     width: 100%;
     height: 400px;
 }
+<<<<<<< HEAD
+=======
+#funContent .big{
+
+}
+
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
 
 /*about page*/
 #aboutContent main {
@@ -537,4 +647,63 @@ aside h2{
     #aboutContent #prevButton{
         position: relative;
         top: 320px;
+<<<<<<< HEAD
     }
+=======
+    }
+
+
+@media only screen and (max-width: 1050px){
+    .FooterProvide , .menu {
+        display: none;
+    }
+    .SocialDiv{
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    nav ul li{
+        display: block;
+        margin-top: 5px;
+    }
+    nav ul li a{
+        width: 90%;
+    }
+    #bookOfMagicContent #content{
+        width: 100%;
+    }
+
+    #bookOfMagicContent form ,
+    #bookOfMagicContent #username,
+    #bookOfMagicContent #commentText,
+    #bookOfMagicContent #subButton{
+        width:95%;
+    }
+
+}
+
+@media only screen and (max-width: 710px) {
+    #indexContent .firstArticle,
+    #indexContent .secondArticle,
+    #indexContent .thirdArticle,
+    #indexContent .fourthArticle {
+        width: 45%;
+        margin-left: 2px;
+    }
+    #indexContent aside ,
+    #funContent aside{
+        display: none;
+    }
+    
+    #funContent main,
+    #funContent section{
+        width: 95%;
+    }
+
+    #indexContent main{
+        width: 95%;
+
+    }
+}
+>>>>>>> 4d89cbc1da0680483475cce033c76b186ee0a3af
