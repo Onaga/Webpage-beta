@@ -154,10 +154,10 @@ h1#team-wars {
         background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
         -webkit-animation:fade-out-fade-in;
         -webkit-animation-duration:50s;
-        -webkit-animation-delay:14s;
+        -webkit-animation-delay:16s;
         animation:fade-out-fade-in;
         animation-duration:50s;
-        animation-delay:14s;
+        animation-delay:16s;
         
     }
     @-webkit-keyframes fade-out-fade-in{
